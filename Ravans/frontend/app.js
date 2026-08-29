@@ -5,7 +5,7 @@
  */
 
 // ── Config ──────────────────────────────────────────────────
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://sanjivinii.onrender.com/api';
 let authToken = localStorage.getItem('medfind_token') || null;
 let currentUser = JSON.parse(localStorage.getItem('medfind_user') || 'null');
 
